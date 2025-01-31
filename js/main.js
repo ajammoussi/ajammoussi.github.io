@@ -285,7 +285,7 @@
 
 var projectImg1 = document.getElementById("projectImg1");
 var projectImg2 = document.getElementById("projectImg2");
-
+var projectImg3 = document.getElementById("projectImg3");
 var images1 = [
 	"images/sms-1.png",
 	"images/sms-2.png",
@@ -297,15 +297,21 @@ var images2 = [
 	"images/woody-2.png",
 	"images/woody-3.png",
 ];
+var images3 = [
+	"images/Chess-1.PNG",
+	"images/Chess-2.PNG",
+];
 
 var index1 = 0;
 var index2 = 0;
+var index3 = 0;
 
 setInterval(function () {
 	projectImg1.src = images1[index1];
 	projectImg2.src = images2[index2];
-
+	projectImg3.src = images3[index3];
 	index1 = (index1 + 1) % images1.length;
 	index2 = (index2 + 1) % images2.length;
+	index3 = (index3 + 1) % images3.length;
 }, 2000);
 
