@@ -287,19 +287,19 @@ var projectImg1 = document.getElementById("projectImg1");
 var projectImg2 = document.getElementById("projectImg2");
 var projectImg3 = document.getElementById("projectImg3");
 var images1 = [
-	"images/sms-1.png",
-	"images/sms-2.png",
-	"images/sms-3.png",
-	"images/sms-4.png",
+	"images/sms-1.PNG",
+	"images/sms-2.PNG",
+	"images/sms-3.PNG",
+	"images/sms-4.PNG",
 ];
 var images2 = [
-	"images/woody-1.png",
-	"images/woody-2.png",
-	"images/woody-3.png",
+	"images/woody-1.PNG",
+	"images/woody-2.PNG",
+	"images/woody-3.PNG",
 ];
 var images3 = [
-	"images/Chess-1.PNG",
-	"images/Chess-2.PNG",
+	"images/Chess-1.png",
+	"images/Chess-2.png",
 ];
 
 var index1 = 0;
